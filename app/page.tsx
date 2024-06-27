@@ -19,10 +19,10 @@ export default function Home() {
 			<section className={`${styles.network} ${styles.section}`}>
 				<section className={styles.network__card1}>
 					<p>
-						"Nigeria and Africa has a massive network effect that have not be
+						&quot;Nigeria and Africa has a massive network effect that have not be
 						fully utilized. With Nigerians/Africans in every country and
 						territory of the world, we can scale an African business to 100+
-						countries in few weeks"
+						countries in few weeks&quot;
 					</p>
 					<section className={styles.profile}>
 						<h2>Daniel Izeghs Oratokhai</h2>
@@ -884,7 +884,7 @@ export default function Home() {
 			{/* 8.  How It Works*/}
 			{/* 8.  How It Works*/}
 			<section className={styles.conactUs}>
-        <h1>Let's build companies that help everyone succeed</h1>
+        <h1>Let&quot;s build companies that help everyone succeed</h1>
         <section className={styles.contactUs__links}>
           <Link href="/" >SINC With Us</Link>
           <Link href="/" className={styles.contactUs__cta}>Apply to SIP 1.0</Link>
