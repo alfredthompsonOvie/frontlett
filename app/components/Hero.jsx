@@ -8,21 +8,21 @@ import Image from "next/image";
 
 const slideContents = [
 	{
-		image: "hero-slide3.svg",
+		image: "hero-slide2.svg",
 		title: "SINC Partners is a service incubation company",
 		description: [
 			"Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
 		],
 	},
 	{
-		image: "hero-slide2.svg",
+		image: "hero-slide1.svg",
 		title: "Come with an idea, leave with a company. ",
 		description: [
 			"You, alongside seasoned service partners and investors, expedite the growth and market entry of your startup.",
 		],
 	},
 	{
-		image: "hero-slide4.svg",
+		image: "hero-slide3.svg",
 		title: "We are big on these 3 things;",
 		description: [
 			"✓ Service Incubation & Ecosystem Advocacy",
