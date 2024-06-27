@@ -21,17 +21,17 @@ export default function Footer() {
 
 			<section className={styles.footer__main}>
 				<section className={styles.footer__main__contents}>
-						<section className={styles.footer__logo}>
-							<h2>
+						<section className={styles.footer__about}>
+							<Link href="/" className={styles.footer__logo}>
 								<Image
 									src="/images/sinc_logo_white.svg"
 									alt="SINC Partners"
-									width={180}
+									width={70}
 									height={37}
 									// fill
 									className=""
 								/>
-							</h2>
+							</Link>
 							<p className={styles.sinc}>
 								SINC Partners is a service incubation company connecting experts
 								in product development and growth marketing willing to offer
@@ -224,6 +224,7 @@ export default function Footer() {
 						<li>
 							<Link href="#">Privacy Policy</Link>
 						</li>
+						
 						<li>
 							<Link href="#">Terms of Service</Link>
 						</li>
@@ -325,7 +326,6 @@ export default function Footer() {
 						alt="nigerian flag"
 						width={16}
 						height={16}
-						// fill
 						className="logo"
 					/>
 				</p>

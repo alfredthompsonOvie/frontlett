@@ -18,7 +18,6 @@ export default function Navbar() {
 	useEffect(() => {
 		function checkScreenSize() {
 			const windowWidth = window.innerWidth;
-			console.log(windowWidth);
 			if (windowWidth < SCREEN_SIZE) {
 				setIsMobile(true);
 				setIsOpen(false);

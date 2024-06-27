@@ -884,7 +884,7 @@ export default function Home() {
 			{/* 8.  How It Works*/}
 			{/* 8.  How It Works*/}
 			<section className={styles.conactUs}>
-        <h1>Let&quot;s build companies that help everyone succeed</h1>
+        <h1>Let&apos;s build companies that help everyone succeed</h1>
         <section className={styles.contactUs__links}>
           <Link href="/" >SINC With Us</Link>
           <Link href="/" className={styles.contactUs__cta}>Apply to SIP 1.0</Link>

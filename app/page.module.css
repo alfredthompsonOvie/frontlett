@@ -6,8 +6,6 @@
 }
 .hero {
   grid-column: 1/-1;
-	/* min-height: calc(100vh - 6em); */
-  /* border: 1px solid; */
 	overflow: hidden;
 	display: grid;
 	grid-template-columns: 1fr 10fr 1fr;
@@ -84,13 +82,11 @@
 .section__title {
 	font-size: clamp(1rem, 15vw, 3rem);
 	max-width: 600px;
-	/* margin-inline: auto; */
   margin: 1em auto ;
 }
 .section__subtitle {
 	font-size: clamp(1rem, 15vw, 3rem);
 	max-width: 650px;
-	/* margin-inline: auto; */
   margin: 1em auto;
 }
 .section__subtitle__small {
@@ -113,7 +109,6 @@
   margin-top: 4em;
 }
 .mission li {
-	/* height: ; */
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -121,23 +116,18 @@
 	padding: 1em;
 }
 .mission li:nth-child(1) {
-	/* height: ; */
 	background-color: #000;
 }
 .mission li:nth-child(2) {
-	/* height: ; */
 	background-color: #f47733;
 }
 .mission li:nth-child(3),
 .mission li:nth-child(5) {
-	/* height: ; */
 	background-color: #ff78bf;
 }
 .mission li:nth-child(4) {
-	/* height: ; */
 	background-color: #20888f;
 }
-/*  */
 .concept,
 .service {
 	grid-column: 2;
@@ -150,11 +140,7 @@
 .concept ul {
 	display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	/* display: flex;
-	justify-content: space-between;
-	align-items: center; */
 	gap: 1em;
-  /* margin: 3em 0; */
   margin-top: 3em;
 }
 .concept li {
@@ -162,13 +148,9 @@
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
-	/* align-items: start; */
 	padding: 1em;
 	background-color: #fff;
 	border-radius: 0.5em;
-}
-
-.service {
 }
 .service__model header {
   margin: 2.8em 0;
@@ -191,11 +173,9 @@
 	gap: 1em;
 }
 .service__model__list li {
-	/* min-height: 9em; */
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
-	/* align-items: start; */
 	padding: 1em;
 	background-color: #fff;
 	border-radius: 0.5em;
@@ -213,7 +193,6 @@
 	padding: 0.6em 2em;
 	border-radius: 5em;
 	border: 1px solid;
-    /* width: 100%; */
 }
 @media(min-width: 584px){
   .service__study__list li {
@@ -244,11 +223,6 @@ margin: 2em auto;
 	background-color: #fff;
 	border-radius: 0.3em;
 }
-/* .cofound p {
-  max-width: 600px;
-  margin-inline: auto;
-} */
-
 .cofound ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -270,7 +244,6 @@ margin: 2em auto;
 	width: 3em;
 	height: 3em;
 	color: #fff;
-	/* text-align: center; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -327,8 +300,6 @@ margin: 2em auto;
 }
 .investor__list > li {
   display: flex;
-  /* flex-direction: column; */
-  
 }
 .list__item__cta {
   
@@ -420,7 +391,8 @@ margin: 2em auto;
 .conactUs {
 	grid-column: 2;
 	text-align: center;
-	margin: 3em 0;
+	max-width: 700px;
+	margin: 3em auto 4em;
 }
 .conactUs h1 {
 	font-size: clamp(1rem, 10vw, 3rem);
