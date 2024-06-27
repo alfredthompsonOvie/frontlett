@@ -1,10 +1,7 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
-import { register } from "swiper/element/bundle";
 import styles from "../styles/Hero.module.css";
 
-import "keen-slider/keen-slider.min.css";
-import { useKeenSlider } from "keen-slider/react";
 
 import Link from "next/link";
 import Image from "next/image";
