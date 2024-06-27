@@ -32,7 +32,7 @@ const slideContents = [
 	},
 ];
 
-register();
+
 export default function Hero() {
 	const [activeIndex, setActiveIndex] = useState(0);
 
