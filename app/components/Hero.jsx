@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState, useEffect } from "react";
+import { useState } from "react";
 import styles from "../styles/Hero.module.css";
 
 
@@ -37,7 +37,6 @@ export default function Hero() {
 	const [activeIndex, setActiveIndex] = useState(0);
 
 	const goToNext = (idx) => {
-		// const index = activeIndex === slideContents.length - 1 ? 0 : activeIndex + 1;
 		setActiveIndex(idx);
 	};
 	function loopSlide() {
@@ -46,9 +45,6 @@ export default function Hero() {
 		
 	}
 
-	useEffect(() => {
-		// loopSlide()
-	}, []);
 	return (
 		<section className={styles.carouselContainer}>
 			<section
@@ -78,86 +74,6 @@ export default function Hero() {
 				))}
 			</section>
 		</section>
-		// <div className="slider-container">
-		// 	<div ref={sliderRef} className="keen-slider">
-		//     <div className="keen-slider__slide">
-		//     <section>
-		// 				<section>
-		// 					<Image src="" alt="" width={500} height={300} />
-		// 				</section>
-		// 				<section className={styles.details}>
-		// 					<h1> </h1>
-		// 					<p>
-
-		// 					</p>
-		// 					<Link href="/" className={styles.Link__cta}>
-		// 						SINC With Us
-		// 					</Link>
-		// 				</section>
-		// 			</section>
-		//     </div>
-		//     <div className="keen-slider__slide">
-		//     <section>
-		// 				<section>
-		// 					<Image src="" alt="" width={500} height={300} />
-		// 				</section>
-		// 				<section className={styles.details}>
-		// 					<h1></h1>
-		// 					<p>
-
-		// 					</p>
-		// 					<Link href="/" className={styles.Link__cta}>
-		// 						SINC With Us
-		// 					</Link>
-		// 				</section>
-		// 			</section>
-		//     </div>
-		//     <div className="keen-slider__slide">
-		//     <section>
-		// 				<section>
-		// 					<Image src="" alt="" width={500} height={300} />
-		// 				</section>
-		// 				<section className={styles.details}>
-		// 					<h1></h1>
-		// 					<ul>
-		//             <li></li>
-		//             <li></li>
-		// 					</ul>
-		// 					<Link href="/" className={styles.Link__cta}>
-		// 						SINC With Us
-		// 					</Link>
-		// 				</section>
-		// 			</section>
-		//     </div>
-		// 	</div>
-		// 	{/* <swiper-container
-		// 		ref={swiperElRef}
-		// 		slides-per-view="1"
-		// 		pagination="true"
-		// 		loop="true"
-		// 		speed="500"
-		// 	>
-		// 		<swiper-slide>
-		// 			<section>
-		// 				<section>
-		// 					<Image src="" alt="" width={500} height={300} />
-		// 				</section>
-		// 				<section className={styles.details}>
-		// 					<h1>SINC Partners is a service incubation company </h1>
-		// 					<p>
-		// 						Connecting experts in product development and growth marketing
-		// 						willing to offer their services to amazing startups in exchange
-		// 						for minute equity (usually 0.5% to 2%).
-		// 					</p>
-		// 					<Link href="/" className={styles.Link__cta}>
-		// 						SINC With Us
-		// 					</Link>
-		// 				</section>
-		// 			</section>
-		// 		</swiper-slide>
-		// 		<swiper-slide>Slide 2</swiper-slide>
-		// 		<swiper-slide>Slide 3</swiper-slide>
-		// 	</swiper-container> */}
-		// </div>
+		
 	);
 }

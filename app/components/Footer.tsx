@@ -158,8 +158,7 @@ export default function Footer() {
 									<Link href="#">Press</Link>
 								</li>
 							</ul>
-						{/* <section className={styles.footerLinkLists}>
-						</section> */}
+
 						<section className={styles.contacts}>
 							<ul>
 								<li className={styles.list__title}>Locations</li>
@@ -194,10 +193,7 @@ export default function Footer() {
 								</section>
 							</section>
 						</section>
-					{/* <section className={styles.footer__main__right}>
-					</section>
-					<section className={styles.footer__main__left}>
-					</section> */}
+
 				</section>
 			</section>
 
