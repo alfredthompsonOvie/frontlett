@@ -1,0 +1,177 @@
+{
+	"heroSection": [
+		{
+			"image": "hero-slide2.svg",
+			"title": "SINC Partners is a service incubation company",
+			"description": [
+				"Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%)."
+			]
+		},
+		{
+			"image": "hero-slide1.svg",
+			"title": "Come with an idea, leave with a company. ",
+			"description": [
+				"You, alongside seasoned service partners and investors, expedite the growth and market entry of your startup."
+			]
+		},
+		{
+			"image": "hero-slide3.svg",
+			"title": "We are big on these 3 things;",
+			"description": [
+				"✓ Service Incubation & Ecosystem Advocacy",
+				"✓ Building SAAS & Marketing Tech Platforms",
+				"✓ Institutional Innovations "
+			]
+		}
+	],
+	"howItWorks": [
+		{
+			"id": 1,
+			"title": "Application and Selection",
+			"description": [
+				"Begin your journey by completing our straightforward application form. Share insights into your entrepreneurial background, expertise, and your vision for supporting the success of our portfolio companies.",
+				" Our dedicated selection committee, comprised of key stakeholders at SINC Partners, will carefully review your application."
+			],
+			"image": "form.svg"
+		},
+		{
+			"id": 2,
+			"title": "Alignment Meeting and Proposal Submission",
+			"description": [
+				"If your application stands out, we'll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies.",
+				"Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our portfolio companies."
+			],
+			"image": "guidance.svg"
+		},
+		{
+			"id": 3,
+			"title": "Negotiation and Agreement",
+			"description": [
+				"Upon successful alignment and proposal review, we'll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or equity arrangements.",
+				"Once terms are agreed upon, we'll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the support/resources provided by SINC Partners."
+			],
+			"image": "document.svg"
+		},
+		{
+			"id": 4,
+			"title": "Onboarding and Integration",
+			"description": [
+				"Congratulations! As an accepted EIR, you'll undergo an onboarding process to familiarize yourself with the SINC Partners ecosystem, our portfolio companies, and key team members.",
+				"Facilitated introductions will ensure a seamless integration between you and relevant portfolio companies, setting clear expectations for collaboration."
+			],
+			"image": "fluent.svg"
+		},
+		{
+			"id": 5,
+			"title": "Regular Check-ins and Evaluations",
+			"description": [
+				"To foster ongoing success, we've established a system for regular check-ins. These sessions will allow us to monitor your progress, gather feedback, and collectively work towards continuous improvement.",
+				"We appreciate your interest in joining our EIR program and contributing to the vibrant SINC Partners community. Start your application process today and be a part of our journey in shaping the future of innovation."
+			],
+			"image": "call.svg"
+		}
+	],
+	"featuredIn": [
+		
+		{
+			"id": 1,
+			"image": "feature1.svg",
+			"icon": "icon1.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 2,
+			"image": "feature2.svg",
+			"icon": "icon2.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 3,
+			"image": "feature3.svg",
+			"icon": "icon3.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 4,
+			"image": "feature4.svg",
+			"icon": "icon4.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 5,
+			"image": "feature2.svg",
+			"icon": "icon2.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 6,
+			"image": "feature1.svg",
+			"icon": "icon1.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 7,
+			"image": "feature4.svg",
+			"icon": "icon4.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 8,
+			"image": "feature3.svg",
+			"icon": "icon3.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 9,
+			"image": "feature1.svg",
+			"icon": "icon1.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		},
+		{
+			"id": 10,
+			"image": "feature4.svg",
+			"icon": "icon4.svg",
+			"title": "SINC Partners invests over 200 million naira in 5 startups",
+			"description": [
+				"SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ...."
+			],
+			"reportedBy": "Rema Viel"
+		}
+	]
+}

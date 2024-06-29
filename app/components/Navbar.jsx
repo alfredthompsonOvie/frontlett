@@ -3,6 +3,8 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from "../styles/Navbar.module.css";
 import { useEffect, useState } from "react";
+import { IoMdClose } from "react-icons/io";
+
 
 const SCREEN_SIZE = 1055;
 
@@ -81,7 +83,7 @@ export default function Navbar() {
         </ul>}
 
        {isMobile && <button className={styles.hamburger} onClick={handleClick}>
-          {isOpen ? "X" : <Image
+          {isOpen ? <IoMdClose /> : <Image
             src="/images/menu.svg"
             alt="menu button"
             width={25}
